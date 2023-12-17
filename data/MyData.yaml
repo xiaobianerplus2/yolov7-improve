@@ -1,0 +1,10 @@
+train: /root/yolov7-main/data/MyData/train.txt
+val: /root/yolov7-main/data/MyData/val.txt
+test: /root/yolov7-main/data/MyData/test.txt
+test_xml: /root/yolov7-main/data/MyData/Annotations
+
+#number of classes
+nc: 4
+
+#class names
+names: ['red', 'white','sc','onduty']
